@@ -16,9 +16,9 @@ Time = Tick-Tock
 
 print ("This process took "+str(Time)+" seconds")
 
-# Sum2 = Array.sum()
+Sum2 = Array.sum()
 
-# Tick2 = t.time()
-# Time2=Tick2-Tick
-# print("But this one only takes "+str(Time2)+" seconds")
-# print("That's "+str(Time/Time2)+" times faster!!")
+Tick2 = t.time()
+Time2=Tick2-Tick
+print("But this one only takes "+str(Time2)+" seconds")
+print("That's "+str(Time/Time2)+" times faster!!")
