@@ -8,7 +8,7 @@ Tock = t.time()
 Array = np.random.rand(10000000)
 
 Sum = 0
-for i in range(len(Array)):
+for i in Array:
     Sum = Sum + Array[i]
 
 Tick = t.time()
